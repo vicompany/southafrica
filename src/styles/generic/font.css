@@ -1,0 +1,11 @@
+@font-face {
+  font-family: wigrum-web;
+  font-weight: normal;
+  src: url('../../fonts/wigrum-web-regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: wigrum-web;
+  font-weight: bold;
+  src: url('../../fonts/wigrum-web-bold.woff') format('woff');
+}
