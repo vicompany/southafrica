@@ -8,7 +8,7 @@ export default {
   root: path.resolve(DIR_ROOT, 'src'),
 
   build: {
-    outDir: path.resolve(DIR_ROOT, 'docs'),
+    outDir: path.resolve(DIR_ROOT, 'dist'),
   },
 
   css: {
