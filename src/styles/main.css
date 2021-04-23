@@ -3,31 +3,38 @@
 
 @import './elements/anchor';
 @import './elements/body';
-@import './elements/header';
+@import './elements/heading';
+@import './elements/paragraph';
 
 @import './components/button';
 @import './components/card-list';
 @import './components/card';
 @import './components/client-list';
+@import './components/container';
+@import './components/heading';
 @import './components/jumbotron';
+@import './components/person-list';
 @import './components/product-list';
 @import './components/section';
+@import './components/text';
 @import './components/visually-hidden';
 
 :root {
-  --color-tint-0: #c4c4c4;
+  --color-tint-0: #000;
   --color-tint-1: #afafaf;
-  --color-tint-2: #fff;
+  --color-tint-2: #c4c4c4;
+  --color-tint-3: #f4f4f4;
+  --color-tint-4: #fff;
 
-  --theme-background: var(--color-tint-2);
+  --theme-background: var(--color-tint-4);
   --theme-background-text: #212a3f;
 
   --theme-primary: #fb5f61;
-  --theme-primary-text: var(--color-tint-2);
+  --theme-primary-text: var(--color-tint-4);
   --theme-secondary: #192337;
-  --theme-secondary-text: var(--color-tint-2);
+  --theme-secondary-text: var(--color-tint-4);
   --theme-secondary-lighter: #212a3f;
-  --theme-secondary-lighter-text: var(--color-tint-0);
+  --theme-secondary-lighter-text: var(--color-tint-2);
 
   --border-radius: 0.25rem;
 }

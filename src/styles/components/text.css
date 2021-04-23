@@ -1,0 +1,12 @@
+.text-center {
+  text-align: center;
+}
+
+.text-readable {
+  max-width: 60ch;
+}
+
+.text-center.text-readable {
+  margin-left: auto;
+  margin-right: auto;
+}

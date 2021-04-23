@@ -6,3 +6,7 @@
 
   list-style-type: none;
 }
+
+.product-list__heading {
+  margin-bottom: 1rem;
+}
