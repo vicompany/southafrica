@@ -1,0 +1,14 @@
+.client-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  gap: 2rem;
+
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.client-list__item {
+  max-width: 8rem;
+}

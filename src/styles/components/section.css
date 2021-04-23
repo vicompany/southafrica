@@ -1,0 +1,21 @@
+.section {
+  --section-background: var(--theme-background);
+  --section-foreground: var(--theme-background-text);
+
+  overflow: hidden;
+  padding: 2rem;
+
+  background-color: var(--section-background);
+
+  color: var(--section-foreground);
+}
+
+.section--dark {
+  --section-background: var(--theme-secondary);
+  --section-foreground: var(--theme-secondary-text);
+}
+
+.section--dark-alt {
+  --section-background: var(--theme-secondary-lighter);
+  --section-foreground: var(--theme-secondary-lighter-text);
+}

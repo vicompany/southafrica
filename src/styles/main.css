@@ -1,8 +1,32 @@
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+@import './generic/reset';
+
+@import './elements/anchor';
+@import './elements/body';
+@import './elements/header';
+
+@import './components/button';
+@import './components/card-list';
+@import './components/card';
+@import './components/client-list';
+@import './components/jumbotron';
+@import './components/product-list';
+@import './components/section';
+@import './components/visually-hidden';
+
+:root {
+  --color-tint-0: #c4c4c4;
+  --color-tint-1: #afafaf;
+  --color-tint-2: #fff;
+
+  --theme-background: var(--color-tint-2);
+  --theme-background-text: #212a3f;
+
+  --theme-primary: #fb5f61;
+  --theme-primary-text: var(--color-tint-2);
+  --theme-secondary: #192337;
+  --theme-secondary-text: var(--color-tint-2);
+  --theme-secondary-lighter: #212a3f;
+  --theme-secondary-lighter-text: var(--color-tint-0);
+
+  --border-radius: 0.25rem;
 }

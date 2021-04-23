@@ -1,0 +1,19 @@
+.button {
+  --button-background: var(--theme-secondary);
+  --button-foreground: var(--theme-secondary-text);
+
+  display: inline-block;
+  padding: 1rem 1.25rem;
+
+  background-color: var(--button-background);
+  border-radius: var(--border-radius);
+
+  color: var(--button-foreground);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.button--primary {
+  --button-background: var(--theme-primary);
+  --button-foreground: var(--theme-primary-text);
+}
