@@ -1,7 +1,8 @@
 {
   "scripts": {
     "dev": "vite",
-    "build": "shx rm -r dist && vite build --mode=production",
+    "build": "vite build --mode=production",
+    "clean": "shx rm -r dist",
     "serve": "vite preview"
   },
   "devDependencies": {
