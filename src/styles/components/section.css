@@ -3,7 +3,7 @@
   --section-foreground: var(--theme-background-text);
 
   overflow: hidden;
-  padding: 2rem;
+  padding: 4rem 2rem;
 
   position: relative;
 
@@ -27,10 +27,10 @@
   --section-foreground: var(--color-tint-0);
 }
 
-.section--without-inline-padding {
+/* .section--without-inline-padding {
   padding-left: 0;
   padding-right: 0;
-}
+} */
 
 .section__heading {
   margin: 0;

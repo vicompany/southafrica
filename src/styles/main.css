@@ -2,6 +2,7 @@
 @import './generic/reset';
 
 @import './elements/anchor';
+@import './elements/blockquote';
 @import './elements/body';
 @import './elements/heading';
 @import './elements/paragraph';
@@ -15,7 +16,9 @@
 @import './components/jumbotron';
 @import './components/person-list';
 @import './components/product-list';
+@import './components/product';
 @import './components/section';
+@import './components/testimonial';
 @import './components/text';
 @import './components/visually-hidden';
 

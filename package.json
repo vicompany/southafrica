@@ -9,6 +9,8 @@
     "browser-sync": "^2.26.14",
     "postcss-preset-env": "^6.7.0",
     "shx": "^0.3.3",
-    "vite": "^2.2.1"
+    "vite": "^2.2.1",
+    "vite-plugin-compress": "^2.1.0",
+    "vite-plugin-imagemin": "^0.3.0"
   }
 }

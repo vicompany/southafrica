@@ -1,3 +1,4 @@
+import compress from 'vite-plugin-compress';
 import path from 'path';
 import postcssPresetEnv from 'postcss-preset-env';
 
@@ -20,4 +21,10 @@ export default {
       ],
     },
   },
+
+  plugins: [
+    compress({
+      quality: 9,
+    }),
+  ],
 }

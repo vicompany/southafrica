@@ -13,17 +13,37 @@
 
 .card__content {
   flex-grow: 1;
-  margin: 0;
+  margin: 0 !important;
+}
+
+.card__header {
+  position: relative;
 }
 
 .card__image {
-  display: none;
+  display: block;
+  max-width: 100%;
+
+  border-radius: var(--border-radius);
 }
 
 .card__link {
   text-decoration: none;
+
+  font-size: 1.125rem;
 }
 
 .card__title {
+  padding: 0.5rem;
   margin: 0;
+
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+
+  background-color: var(--theme-secondary);
+  border-radius: var(--border-radius);
+
+  color: var(--theme-secondary-text);
+  font-size: 1.25rem;
 }
