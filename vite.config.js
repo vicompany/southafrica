@@ -24,6 +24,7 @@ export default {
 
   plugins: [
     compress({
+      brotli: false,
       quality: 9,
     }),
   ],
