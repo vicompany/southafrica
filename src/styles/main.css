@@ -13,6 +13,7 @@
 @import './components/client-list';
 @import './components/container';
 @import './components/heading';
+@import './components/image-list';
 @import './components/jumbotron';
 @import './components/person-list';
 @import './components/product-list';

@@ -5,8 +5,6 @@
   overflow: hidden;
   padding: 4rem 2rem;
 
-  position: relative;
-
   background-color: var(--section-background);
 
   color: var(--section-foreground);
@@ -22,6 +20,16 @@
   --section-foreground: var(--theme-secondary-lighter-text);
 }
 
+.section--decorated {
+  background-image: url(../../images/decorative/grid.svg),
+    url(../../images/decorative/lines.svg);
+  background-position: 1rem 3rem, right bottom;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 5rem auto, 40% auto;
+
+  padding-bottom: 16rem;
+}
+
 .section--gray {
   --section-background: var(--color-tint-3);
   --section-foreground: var(--color-tint-0);
@@ -31,18 +39,3 @@
   padding-left: 0;
   padding-right: 0;
 } */
-
-.section__heading {
-  margin: 0;
-
-  position: absolute;
-  left: calc(50% - 50rem);
-  top: -2rem;
-  z-index: 0;
-
-  pointer-events: none;
-
-  font-size: 12rem;
-
-  opacity: 0.05;
-}

@@ -16,24 +16,9 @@
 
 .product__name {
   font-size: 2rem;
-
-  & a {
-    color: inherit;
-  }
-
-  &::after {
-    color: var(--theme-primary);
-    content: '↗';
-  }
 }
 
 .product__number {
-  display: none;
-
-  position: absolute;
-  left: 2rem;
-  top: 4rem;
-
   font-size: 2rem;
   font-weight: bold;
   line-height: 1.2;
@@ -44,8 +29,15 @@
   }
 }
 
+.product__video {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
 @media (min-width: 80rem) {
   .product__number {
-    display: block;
+    position: absolute;
+    left: 2rem;
+    top: 4rem;
   }
 }

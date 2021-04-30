@@ -1,0 +1,23 @@
+.image-list {
+  display: flex;
+  width: calc(64rem + 7.5rem);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -8rem;
+
+  justify-content: space-between;
+}
+
+.image-list__item {
+  height: 20rem;
+  width: 16rem;
+  object-fit: cover;
+  object-position: center center;
+
+  border-radius: calc(3 * var(--border-radius));
+
+  &:first-child,
+  &:last-child {
+    height: 16rem;
+  }
+}
