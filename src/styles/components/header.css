@@ -1,0 +1,10 @@
+.header {
+  overflow: hidden;
+
+  position: sticky;
+  top: 0;
+  z-index: 1;
+
+  background-color: var(--theme-secondary-lighter);
+  color: var(--theme-secondary-lighter-text);
+}

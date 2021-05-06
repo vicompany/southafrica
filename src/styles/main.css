@@ -12,6 +12,7 @@
 @import './components/card';
 @import './components/client-list';
 @import './components/container';
+@import './components/header';
 @import './components/heading';
 @import './components/image-list';
 @import './components/jumbotron';

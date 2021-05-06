@@ -14,9 +14,3 @@
 .jumbotron__title {
   font-size: 4rem;
 }
-
-.jumbotron__subtitle {
-  color: var(--color-tint-1);
-  font-size: 0.8rem;
-  font-weight: normal;
-}
