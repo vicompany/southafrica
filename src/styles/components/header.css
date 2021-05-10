@@ -1,5 +1,6 @@
 .header {
   overflow: hidden;
+  padding: 0.75rem 2rem;
 
   position: sticky;
   top: 0;
@@ -7,4 +8,77 @@
 
   background-color: var(--theme-secondary-lighter);
   color: var(--theme-secondary-lighter-text);
+}
+
+.header__call-to-action {
+  grid-area: cta;
+}
+
+.header__contact {
+  display: block;
+  padding: 0;
+  margin: 0;
+
+  grid-area: contact;
+
+  color: var(--theme-primary);
+  font-weight: bold;
+  font-size: 1.25rem;
+
+  & dt,
+  & dd {
+    display: inline;
+    padding: 0;
+    margin: 0 1rem 0 0;
+  }
+}
+
+.header__contact-icon {
+  vertical-align: middle;
+  margin-top: -0.3rem;
+  margin-right: 0.25rem;
+}
+
+.header__content {
+  display: grid;
+  gap: 1rem;
+
+  grid-template-areas: 'logo'
+    'contact'
+    'cta';
+}
+
+.header__logo {
+  grid-area: logo;
+  height: 2.75rem;
+  margin-top: 0.5rem;
+}
+
+@media (min-width: 50rem) {
+  .header__contact {
+    margin-top: 0.75rem;
+    white-space: nowrap;
+  }
+
+  .header__content {
+    grid-template-areas: 'logo cta'
+      'contact cta';
+
+    grid-template-columns: 1fr min-content min-content;
+  }
+}
+
+@media (min-width: 80rem) {
+  .header__contact {
+    display: inline;
+
+    & dt,
+    & dd {
+      display: inline;
+    }
+  }
+
+  .header__content {
+    grid-template-areas: 'logo contact cta';
+  }
 }

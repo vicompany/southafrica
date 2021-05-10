@@ -11,7 +11,30 @@
 
   <body>
     <header class="header">
-      <img src="./images/vicompany.svg" alt="">
+      <div class="header__content container">
+        <img src="./images/vicompany.svg" alt="" class="header__logo" />
+
+        <dl class="header__contact">
+          <dt class="visually-hidden">Phone number</dt>
+          <dd>
+            <img src="./images/icons/phone.svg" height="24" width="24" class="header__contact-icon" />
+            +31 10 714 44 57
+          </dd>
+
+          <dt class="visually-hidden">E-mail address</dt>
+          <dd>
+            <img src="./images/icons/email.svg" height="24" width="24" class="header__contact-icon" />
+            info@vicompany.nl
+          </dd>
+        </dl>
+
+        <div class="header__call-to-action">
+          <a href="mailto:yvonne@vicompany.nl" class="button button--primary">
+            <img src="./images/icons/calendar.svg" height="24" width="24" />
+            Create an appointment
+          </a>
+        </div>
+      </div>
     </header>
 
     <main>
@@ -29,6 +52,7 @@
             work in finance!
           </p>
           <a href="mailto:yvonne@vicompany.nl" class="button button--primary">
+            <img src="./images/icons/calendar.svg" height="24" width="24" />
             Create an appointment
           </a>
         </div>
@@ -38,7 +62,11 @@
             <li class="card-list__item">
               <article class="card">
                 <header class="card__header">
-                  <img src="./images/products/alloq.jpg" alt="" class="card__image" />
+                  <img
+                    src="./images/products/alloq.jpg"
+                    alt=""
+                    class="card__image"
+                  />
                   <h2 class="card__title">Alloq</h2>
                 </header>
 
@@ -51,7 +79,11 @@
             <li class="card-list__item">
               <article class="card">
                 <header class="card__header">
-                  <img src="./images/products/producttwo.jpg" alt="" class="card__image" />
+                  <img
+                    src="./images/products/producttwo.jpg"
+                    alt=""
+                    class="card__image"
+                  />
                   <h2 class="card__title">VI/Producttwo</h2>
                 </header>
 
@@ -66,7 +98,11 @@
             <li class="card-list__item">
               <article class="card">
                 <header class="card__header">
-                  <img src="./images/products/pensionfunds.jpg" alt="" class="card__image" />
+                  <img
+                    src="./images/products/pensionfunds.jpg"
+                    alt=""
+                    class="card__image"
+                  />
                   <h2 class="card__title">VI/Pensionfund Dashboard</h2>
                 </header>
 
@@ -257,6 +293,7 @@
           <div class="text-center">
             <h2 class="heading-2">Want to find out what we can do for you?</h2>
             <a href="mailto:yvonne@vicompany.nl" class="button button--primary">
+              <img src="./images/icons/calendar.svg" height="24" width="24" />
               Create an appointment
             </a>
             <p>
@@ -357,6 +394,8 @@
         <li><a href="https://www.vicompany.nl">vicompany.nl</a></li>
       </ul>
     </footer>
+
+    <script src="./scripts/main.js"></script>
 
     <script type="text/javascript">
       window._chatlio = window._chatlio || [];

@@ -11,11 +11,16 @@
   color: var(--button-foreground);
   font-size: 1.25rem;
   font-weight: 700;
+  line-height: inherit;
   text-decoration: none;
+  white-space: nowrap;
 
   & img {
-    height: 1rem;
+    height: 1.5rem;
     width: auto;
+
+    position: relative;
+    top: 0.25rem;
 
     &:first-child {
       margin-right: 0.25rem;
