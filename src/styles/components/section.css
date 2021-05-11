@@ -10,6 +10,53 @@
   color: var(--section-foreground);
 }
 
+.section--hero {
+  position: relative;
+
+  & > * {
+    position: relative;
+    z-index: 2;
+  }
+
+  &::before {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 0;
+
+    background-image: url(../../images/decorative/hero-background.png);
+    background-position: center center;
+    background-size: cover;
+
+    mix-blend-mode: multiply;
+  }
+
+  &::after {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+
+    opacity: 0.5;
+
+    background-image: url(../../images/decorative/hero-lines-1.svg),
+      url(../../images/decorative/hero-lines-2.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-size: 12rem auto, 32rem auto;
+  }
+}
+
 .section--dark {
   --section-background: var(--theme-secondary);
   --section-foreground: var(--theme-secondary-text);

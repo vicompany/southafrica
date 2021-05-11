@@ -10,5 +10,17 @@
 }
 
 .client-list__item {
+  display: flex;
+  align-items: center;
+
   max-width: 8rem;
+
+  & img {
+    max-width: 100%;
+  }
+}
+
+.client-list__item--text {
+  max-width: none;
+  width: 10rem;
 }
