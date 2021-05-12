@@ -1,0 +1,40 @@
+.footer {
+  padding-top: 15rem !important;
+  padding-bottom: 4rem !important;
+  margin-top: -15rem;
+}
+
+.footer__about {
+  color: var(--theme-primary);
+  font-weight: bold;
+  font-size: 1.25rem;
+
+  & > img {
+    display: block;
+  }
+
+  & dd {
+    display: block;
+    padding: 0;
+    margin: 0 1rem 0 0;
+  }
+}
+
+.footer__content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.footer__link-list {
+  padding: 0;
+  margin: 0;
+
+  list-style-type: none;
+
+  & a {
+    color: inherit;
+    font-weight: normal;
+    text-decoration: none;
+  }
+}

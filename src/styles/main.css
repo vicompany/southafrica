@@ -12,12 +12,14 @@
 @import './components/card';
 @import './components/client-list';
 @import './components/container';
+@import './components/footer';
 @import './components/header';
 @import './components/heading';
 @import './components/iframe-container';
 @import './components/image-list';
 @import './components/jumbotron';
 @import './components/logo-header';
+@import './components/partner-logo-list';
 @import './components/person-list';
 @import './components/product-list';
 @import './components/product';
@@ -25,7 +27,6 @@
 @import './components/testimonial';
 @import './components/text';
 @import './components/usp-list';
-@import './components/partner-logo-list';
 @import './components/visually-hidden';
 
 :root {
