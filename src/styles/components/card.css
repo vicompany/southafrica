@@ -1,19 +1,63 @@
 .card {
+  --card-background: var(--theme-background);
+  --card-foreground: var(--theme-background-text);
+
   display: flex;
   height: 100%;
   padding: 1.5rem;
   flex-direction: column;
   gap: 1rem;
 
-  background-color: var(--theme-background);
+  background-color: var(--card-background);
   border-radius: var(--border-radius);
 
-  color: var(--theme-background-text);
+  color: var(--card-foreground);
+}
+
+.card--dark {
+  --card-background: var(--theme-secondary-lighter);
+  --card-foreground: var(--theme-secondary-text);
+
+  padding: 6rem 4rem;
+  position: relative;
+
+  & .card__header {
+    margin-bottom: 0;
+  }
+
+  & > * {
+    position: relative;
+    z-index: 2;
+  }
+
+  &::after {
+    display: block;
+    content: '';
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+
+    opacity: 0.25;
+
+    background-image: url(../../images/decorative/hero-lines-1.svg),
+      url(../../images/decorative/hero-lines-2.svg);
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    background-size: 6rem auto, 16rem auto;
+  }
 }
 
 .card__content {
   flex-grow: 1;
   margin: 0 !important;
+
+  & p {
+    margin: 1rem 0;
+  }
 }
 
 .card__header {

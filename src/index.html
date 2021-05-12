@@ -12,7 +12,7 @@
   <body>
     <header class="header">
       <div class="header__content container">
-        <img src="./images/vicompany.svg" alt="" class="header__logo" />
+        <img src="./images/vicompany-sa.svg" alt="" class="header__logo" />
 
         <dl class="header__contact">
           <dt class="visually-hidden">Phone number</dt>
@@ -56,7 +56,7 @@
           </h2>
 
           <p class="jumbotron__intro">
-            We've created several SaaS-products especially for the financial and
+            We’ve created several SaaS-products especially for the financial and
             pension market. Find out below how our products can simplify your
             work in finance!
           </p>
@@ -135,7 +135,9 @@
                     width="16"
                   />
                   Read more
-                  <span class="visually-hidden">about Pensionfund Dashboard</span>
+                  <span class="visually-hidden"
+                    >about Pensionfund Dashboard</span
+                  >
                 </a>
               </article>
             </li>
@@ -210,14 +212,15 @@
             <span class="visually-hidden">alloq.nl</span>
           </a>
 
-          <iframe
-            allowfullscreen
-            class="product__video"
-            frameborder="0"
-            height="540"
-            src="https://player.vimeo.com/video/380148095"
-            width="960"
-          ></iframe>
+          <div class="product__video iframe-container">
+            <iframe
+              allowfullscreen
+              frameborder="0"
+              height="540"
+              src="https://player.vimeo.com/video/380148095"
+              width="960"
+            ></iframe>
+          </div>
 
           <figure class="testimonial">
             <blockquote>
@@ -230,9 +233,84 @@
               Head of Client Portfolio Analysis & Management <b>@PGGM</b>
             </figcaption>
           </figure>
-
-          <!-- TODO: USPs -->
         </div>
+
+        <ul class="usp-list">
+          <li class="usp-list__item">
+            <img
+              src="./images/usps/alloq-1.svg"
+              alt=""
+              class="usp-list__image"
+            />
+            <h3 class="usp-list__title">Supports the whole spectrum</h3>
+            <!-- TODO: check copy -->
+            <p class="usp-list__content">
+              From cash allocations and capital call management to [factor]
+              rebalancing and simulations.
+            </p>
+          </li>
+          <li class="usp-list__item">
+            <img
+              src="./images/usps/alloq-2.svg"
+              alt=""
+              class="usp-list__image"
+            />
+            <h3 class="usp-list__title">Client specific</h3>
+            <p class="usp-list__content">
+              Adjust the ruleset to suit your client’s needs in a controlled
+              environment.
+            </p>
+          </li>
+          <li class="usp-list__item">
+            <img
+              src="./images/usps/alloq-3.svg"
+              alt=""
+              class="usp-list__image"
+            />
+            <h3 class="usp-list__title">Supports the whole process</h3>
+            <p class="usp-list__content">
+              In full control of the process, including (market) data validation
+              and four eyes principle.
+            </p>
+          </li>
+          <li class="usp-list__item">
+            <img
+              src="./images/usps/alloq-4.svg"
+              alt=""
+              class="usp-list__image"
+            />
+            <h3 class="usp-list__title">Modules</h3>
+            <p class="usp-list__content">
+              Alloq offers multiple modules that can be linked together, with
+              the ability to improve frontend processes across multiple
+              departments.
+            </p>
+          </li>
+          <li class="usp-list__item">
+            <img
+              src="./images/usps/alloq-5.svg"
+              alt=""
+              class="usp-list__image"
+            />
+            <h3 class="usp-list__title">API integration</h3>
+            <p class="usp-list__content">
+              Build on top of Alloq’s API to integrate your portfolio data into
+              your own infrastructure.
+            </p>
+          </li>
+          <li class="usp-list__item">
+            <img
+              src="./images/usps/alloq-6.svg"
+              alt=""
+              class="usp-list__image"
+            />
+            <h3 class="usp-list__title">Secure and certified</h3>
+            <p class="usp-list__content">
+              Recognized by leaders within the industry, ISAE 3402 type II
+              audited each year, and ISO 9001 & 27001 certified.
+            </p>
+          </li>
+        </ul>
       </section>
 
       <section class="section product">
@@ -259,14 +337,15 @@
             <span class="visually-hidden">producttwo.com</span>
           </a>
 
-          <iframe
-            allowfullscreen
-            class="product__video"
-            frameborder="0"
-            height="540"
-            src="https://player.vimeo.com/video/380148095"
-            width="960"
-          ></iframe>
+          <div class="product__video iframe-container">
+            <iframe
+              allowfullscreen
+              frameborder="0"
+              height="540"
+              src="https://player.vimeo.com/video/380148095"
+              width="960"
+            ></iframe>
+          </div>
 
           <figure class="testimonial">
             <blockquote>
@@ -280,9 +359,44 @@
               Product Manager at one of the Top 30 largest banks worldwide.
             </figcaption>
           </figure>
-
-          <!-- TODO: USPs -->
         </div>
+
+        <ul class="usp-list">
+          <li class="usp-list__item">
+            <img
+              src="./images/usps/producttwo-1.svg"
+              alt=""
+              class="usp-list__image"
+            />
+            <h3 class="usp-list__title">Customizable</h3>
+            <p class="usp-list__content">
+              Transforms your data into company branded documents.
+            </p>
+          </li>
+          <li class="usp-list__item">
+            <img
+              src="./images/usps/producttwo-2.svg"
+              alt=""
+              class="usp-list__image"
+            />
+            <h3 class="usp-list__title">Multilingual</h3>
+            <p class="usp-list__content">
+              Easy set-up for multilingual supported documents. Generate
+              documents in any language.
+            </p>
+          </li>
+          <li class="usp-list__item">
+            <img
+              src="./images/usps/producttwo-3.svg"
+              alt=""
+              class="usp-list__image"
+            />
+            <h3 class="usp-list__title">Safe and secure</h3>
+            <p class="usp-list__content">
+              A protected environment, closed off to external parties.
+            </p>
+          </li>
+        </ul>
       </section>
 
       <section class="section product">
@@ -308,14 +422,15 @@
             <span class="visually-hidden">producttwo.com</span>
           </a>
 
-          <iframe
-            allowfullscreen
-            class="product__video"
-            frameborder="0"
-            height="540"
-            src="https://player.vimeo.com/video/380148095"
-            width="960"
-          ></iframe>
+          <div class="product__video iframe-container">
+            <iframe
+              allowfullscreen
+              frameborder="0"
+              height="540"
+              src="https://player.vimeo.com/video/380148095"
+              width="960"
+            ></iframe>
+          </div>
 
           <figure class="testimonial">
             <blockquote>
@@ -334,13 +449,51 @@
               Pension Fund Foundation
             </figcaption>
           </figure>
-
-          <!-- TODO: USPs -->
         </div>
+
+        <ul class="usp-list">
+          <li class="usp-list__item">
+            <img
+              src="./images/usps/pensionfund-dashboard-1.svg"
+              alt=""
+              class="usp-list__image"
+            />
+            <h3 class="usp-list__title">Gather insights</h3>
+            <p class="usp-list__content">
+              A dashboard that offers insights into how well the pension funds
+              are performing at a glance. More detailed insights are accessible
+              from the overview.
+            </p>
+          </li>
+          <li class="usp-list__item">
+            <img
+              src="./images/usps/pensionfund-dashboard-2.svg"
+              alt=""
+              class="usp-list__image"
+            />
+            <h3 class="usp-list__title">KPI’s</h3>
+            <p class="usp-list__content">
+              The most important KPI’s are positioned on one page, while more
+              detailed information on those KPI’s are made available on click.
+            </p>
+          </li>
+          <li class="usp-list__item">
+            <img
+              src="./images/usps/pensionfund-dashboard-3.svg"
+              alt=""
+              class="usp-list__image"
+            />
+            <h3 class="usp-list__title">Customizable</h3>
+            <p class="usp-list__content">
+              The Pension Funds Dashboard is fully customizable to your own
+              KPI’s and corporate identity.
+            </p>
+          </li>
+        </ul>
       </section>
 
       <div class="section">
-        <div class="container container--small container--with-inline-padding">
+        <div class="container container--puny container--with-inline-padding">
           <div class="text-center">
             <h2 class="heading-2">Want to find out what we can do for you?</h2>
             <a href="mailto:yvonne@vicompany.nl" class="button button--primary">
@@ -352,6 +505,9 @@
               <a href="tel:+31107144457">+31 10 714 44 57</a>
             </p>
           </div>
+        </div>
+
+        <div class="container container--mall">
           <ul class="person-list">
             <li class="person-list__item">
               <img
@@ -399,7 +555,7 @@
 
       <div class="section section--dark section--decorated">
         <div class="container container--small">
-          <!-- TODO: add VI Company logo -->
+          <img src="./images/vicompany.svg" alt="" class="logo-header" />
 
           <h2 class="heading-2">About us</h2>
           <div class="text-readable">
@@ -430,8 +586,57 @@
         <img src="./images/about-04.jpg" alt="" class="image-list__item" />
       </div>
 
-      <!-- TODO: Add certified partner section -->
-      <!-- TODO: Add "Want to know more?" section -->
+      <div class="section">
+        <div class="container container--puny text-center">
+          <h2 class="heading-2">Certified partner</h2>
+          <p>
+            VI Company is fully ISO 27001 and 9001 certified by Dekra, has its
+            own Dutch development teams, hosting, infrastructure and 24/7
+            monitoring.
+          </p>
+        </div>
+      </div>
+
+      <div class="container container--small partner-logo-list">
+        <img
+          src="./images/partners/iso.png"
+          height="64"
+          alt="ISO 9001 and ISO 27001 certified"
+        />
+        <img
+          src="./images/partners/ia-fintech.svg"
+          height="64"
+          alt="IA FinTech member"
+        />
+        <img
+          src="./images/partners/microsoft-gold.png"
+          height="64"
+          alt="Gold Microsoft Partner"
+        />
+      </div>
+
+      <div class="section">
+        <div class="container container--medium">
+          <div class="card card--dark">
+            <div class="card__content">
+              <h2 class="card__header heading-3">Want to know more?</h2>
+              <p class="text-readable">
+                Let's grab a virtual coffee and we'll talk about how our
+                products can simplify your work in finance.
+              </p>
+              <a
+                href="mailto:yvonne@vicompany.nl"
+                class="button button--primary"
+              >
+                <img src="./images/icons/calendar.svg" height="24" width="24" />
+                Create an appointment
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TODO: Want to know more? -->
     </main>
 
     <footer class="section section--gray">

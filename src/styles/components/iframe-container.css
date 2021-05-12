@@ -1,0 +1,14 @@
+.iframe-container {
+  padding-top: 56.25%;
+  position: relative;
+
+  & > iframe {
+    display: block;
+    height: 100%;
+    width: 100%;
+
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+}

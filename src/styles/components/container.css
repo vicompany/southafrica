@@ -4,8 +4,16 @@
   margin-right: auto;
 }
 
+.container--medium {
+  max-width: 70rem;
+}
+
 .container--small {
   max-width: 60rem;
+}
+
+.container--puny {
+  max-width: 40rem;
 }
 
 /* .container + .container {
