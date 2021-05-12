@@ -2,6 +2,8 @@
   padding-top: 15rem !important;
   padding-bottom: 4rem !important;
   margin-top: -15rem;
+
+  overflow: visible !important;
 }
 
 .footer__about {
@@ -36,5 +38,29 @@
     color: inherit;
     font-weight: normal;
     text-decoration: none;
+  }
+}
+
+.footer__button-top-container {
+  position: relative;
+  z-index: 100;
+}
+
+.footer__button-top {
+  display: block;
+  padding: 0;
+  margin: 0;
+
+  position: absolute;
+  left: calc(50% + 36rem);
+  top: -17rem;
+  z-index: 100;
+
+  background-color: transparent;
+  background-image: none;
+  border: 0;
+
+  & img {
+    width: 4rem;
   }
 }

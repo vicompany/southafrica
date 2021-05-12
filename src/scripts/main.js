@@ -1,18 +1,8 @@
-const elementHeader = document.getElementById('header');
-const elementJumbotron = document.getElementById('jumbotron');
+const buttonTop = document.getElementById('button-top');
 
-const observer = new IntersectionObserver(([state]) => {
-  if (state.isIntersecting) {
-    elementHeader.classList.remove('header--sticky');
-  } else {
-    console.log('make sticky');
-    elementHeader.classList.add('header--sticky');
-    elementHeader.classList.add('header--sticky-animation-start');
-
-    setTimeout(() => {
-      elementHeader.classList.remove('header--sticky-animation-start');
-    }, 100);
-  }
+buttonTop.addEventListener('click', () => {
+  window.scrollTo({
+    behavior: 'smooth',
+    top: 0,
+  });
 });
-
-observer.observe(elementJumbotron);
