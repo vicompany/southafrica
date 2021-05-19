@@ -1,6 +1,6 @@
 .client-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
 
   list-style-type: none;
@@ -14,13 +14,21 @@
   align-items: center;
 
   max-width: 8rem;
-
-  & img {
-    max-width: 100%;
-  }
 }
 
 .client-list__item--text {
   max-width: none;
   width: 10rem;
+}
+
+@media (min-width: 60rem) {
+  .client-list {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (min-width: 80rem) {
+  .client-list {
+    grid-template-columns: repeat(8, 1fr);
+  }
 }
