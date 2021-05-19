@@ -8,6 +8,8 @@
   gap: 2rem;
 
   list-style-type: none;
+
+  font-size: 1rem;
 }
 
 .person-list__name {

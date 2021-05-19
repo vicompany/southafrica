@@ -4,12 +4,13 @@
   margin-top: -15rem;
 
   overflow: visible !important;
+
+  font-size: 1rem;
 }
 
 .footer__about {
   color: var(--theme-primary);
   font-weight: bold;
-  font-size: 1.25rem;
 
   & > img {
     display: block;
