@@ -20,20 +20,24 @@
   display: grid;
   gap: 1rem;
 
-  grid-template-areas: 'logo'
-    'cta';
+  grid-template-areas: 'logo cta';
+  grid-template-columns: 1fr 1fr;
 }
 
 .header__logo {
+  height: 2.5rem;
   grid-area: logo;
-  height: 3.75rem;
-
-  justify-self: center;
+  justify-self: start;
 }
 
-@media (min-width: 50rem) {
+@media (min-width: 80em) {
   .header__content {
     grid-template-areas: '- logo cta';
     grid-template-columns: 1fr min-content 1fr;
+  }
+
+  .header__logo {
+    height: 3.75rem;
+    justify-self: center;
   }
 }

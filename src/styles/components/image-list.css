@@ -22,7 +22,7 @@
   }
 }
 
-@media (min-width: 80rem) {
+@media (min-width: 80em) {
   .image-list {
     display: flex;
   }

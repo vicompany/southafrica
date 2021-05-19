@@ -8,7 +8,7 @@
   }
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 40em) {
   .partner-logo-list {
     display: flex;
     justify-content: space-between;

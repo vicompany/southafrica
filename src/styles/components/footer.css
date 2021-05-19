@@ -67,7 +67,7 @@
   }
 }
 
-@media (min-width: 80rem) {
+@media (min-width: 80em) {
   .footer__button-top {
     display: block;
   }

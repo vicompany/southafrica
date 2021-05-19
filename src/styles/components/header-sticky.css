@@ -26,8 +26,12 @@
   justify-self: end;
 }
 
+.header-sticky__call-to-action-text {
+  display: none;
+}
+
 .header-sticky__contact {
-  display: block;
+  display: none;
   padding: 0;
   margin: 0;
 
@@ -54,36 +58,39 @@
   display: grid;
   gap: 1rem;
 
-  grid-template-areas: 'logo'
-    'contact'
-    'cta';
+  grid-template-areas: 'logo cta';
+  grid-template-columns: 1fr min-content;
 }
 
 .header-sticky__logo {
-  grid-area: logo;
-  height: 2.75rem;
+  height: 1.5rem;
   margin-top: 0.5rem;
-
-  justify-self: center;
 }
 
-@media (min-width: 50rem) {
-  .header-sticky__contact {
-    margin-top: 0.75rem;
-    white-space: nowrap;
+@media (min-width: 40em) {
+  .header-sticky__logo {
+    height: 2.75rem;
+    margin-top: 0;
   }
+}
 
+
+@media (min-width: 60em) {
   .header-sticky__content {
-    grid-template-areas: 'logo cta'
-      'contact cta';
+    grid-template-areas: 'logo contact cta';
+    grid-template-columns: 1fr min-content min-content;
+  }
 
-    grid-template-columns: 1fr min-content 1fr;
+  .header-sticky__logo {
+    margin-top: 0.5rem;
   }
 }
 
-@media (min-width: 80rem) {
+@media (min-width: 80em) {
   .header-sticky__contact {
     display: inline;
+    margin-top: 0.75rem;
+    white-space: nowrap;
 
     & dt,
     & dd {
@@ -91,7 +98,7 @@
     }
   }
 
-  .header-sticky__content {
-    grid-template-areas: 'logo contact cta';
+  .header-sticky__call-to-action-text {
+    display: inline;
   }
 }

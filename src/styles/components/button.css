@@ -13,7 +13,6 @@
   font-weight: 700;
   line-height: inherit;
   text-decoration: none !important;
-  white-space: nowrap;
 
   transition: background-color 200ms, color 200ms;
 
@@ -55,4 +54,39 @@
   --button-foreground: var(--theme-primary);
 
   padding: 0;
+}
+
+@media (max-width: 60em) {
+  .button--with-icon {
+    box-sizing: content-box;
+    display: block;
+    height: 1.5rem;
+    width: 1.5rem;
+    padding: 0.5rem;
+
+    line-height: 0;
+
+    & > span {
+      display: none;
+    }
+
+    & > img {
+      display: block;
+      height: 1.5rem;
+      width: 1.5rem;
+      margin: -0.25rem 0 0 0;
+    }
+  }
+}
+
+@media (min-width: 60em) {
+  .button {
+    white-space: nowrap;
+  }
+
+  .button--with-icon {
+    & > span {
+      display: inline;
+    }
+  }
 }

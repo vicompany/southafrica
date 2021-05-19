@@ -23,13 +23,13 @@
   width: 10rem;
 }
 
-@media (min-width: 60rem) {
+@media (min-width: 60em) {
   .client-list {
     grid-template-columns: repeat(4, 1fr);
   }
 }
 
-@media (min-width: 80rem) {
+@media (min-width: 80em) {
   .client-list {
     grid-template-columns: repeat(8, 1fr);
   }
