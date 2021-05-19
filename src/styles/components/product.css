@@ -1,14 +1,14 @@
 .product {
   position: relative;
+  background-color: #fafbfd !important;
 
   background-image: linear-gradient(
-    var(--theme-background),
-    var(--color-tint-3)
+    -10deg,
+    #fafbfd 50%,
+    var(--theme-background) 50%
   );
-  background-position: 0 bottom;
+  background-size: 100% 90rem;
   background-repeat: no-repeat;
-  background-size: 100% 64rem;
-  border-bottom: 0.125rem solid var(--color-tint-3);
 
   font-size: 1.5rem;
   line-height: 1.5;
