@@ -8,10 +8,23 @@
   flex-direction: column;
   gap: 1rem;
 
+  position: relative;
+
   background-color: var(--card-background);
   border-radius: var(--border-radius);
 
   color: var(--card-foreground);
+
+  & a::after {
+    display: block;
+    content: '';
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+  }
 }
 
 .card--dark {
