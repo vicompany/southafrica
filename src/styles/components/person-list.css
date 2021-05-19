@@ -4,9 +4,6 @@
   padding: 0;
   margin: 4rem auto;
 
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  gap: 2rem;
-
   list-style-type: none;
 
   font-size: 1rem;
@@ -27,4 +24,18 @@
 
 .person-list__role {
   color: var(--color-tint-1);
+}
+
+@media (min-width: 30rem) {
+  .person-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 60rem) {
+  .person-list {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+  }
 }
