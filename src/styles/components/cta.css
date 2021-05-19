@@ -1,0 +1,29 @@
+@keyframes cta-image-hover {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.cta {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.5rem;
+
+  text-decoration: none !important;
+
+  &:hover > img {
+    animation: 0.5s linear 0s infinite normal cta-image-hover;
+  }
+
+  & > span {
+    line-height: 1;
+  }
+
+  &:hover > span {
+    text-decoration: underline;
+  }
+}

@@ -12,9 +12,10 @@
 @import './components/card';
 @import './components/client-list';
 @import './components/container';
+@import './components/cta';
 @import './components/footer';
-@import './components/header';
 @import './components/header-sticky';
+@import './components/header';
 @import './components/heading';
 @import './components/iframe-container';
 @import './components/image-list';
@@ -41,6 +42,7 @@
   --theme-background-text: #212a3f;
 
   --theme-primary: #fb5f61;
+  --theme-primary-light: #fdbabc;
   --theme-primary-text: var(--color-tint-4);
   --theme-secondary: #192337;
   --theme-secondary-text: var(--color-tint-4);
