@@ -12,31 +12,7 @@
   <body>
     <header class="header">
       <div class="header__content container">
-        <img src="./images/vicompany-sa.svg" alt="" class="header__logo" />
-
-        <dl class="header__contact">
-          <dt class="visually-hidden">Phone number</dt>
-          <dd>
-            <img
-              src="./images/icons/phone.svg"
-              height="24"
-              width="24"
-              class="header__contact-icon"
-            />
-            +31 10 714 44 57
-          </dd>
-
-          <dt class="visually-hidden">E-mail address</dt>
-          <dd>
-            <img
-              src="./images/icons/email.svg"
-              height="24"
-              width="24"
-              class="header__contact-icon"
-            />
-            info@vicompany.nl
-          </dd>
-        </dl>
+        <img src="./images/vicompany-sa-with-sub.svg" alt="" class="header__logo" />
 
         <div class="header__call-to-action">
           <a href="mailto:yvonne@vicompany.nl" class="button button--primary">
@@ -47,8 +23,45 @@
       </div>
     </header>
 
+    <header class="header-sticky" id="header-sticky" aria-hidden="true">
+      <div class="header-sticky__content container">
+        <img src="./images/vicompany-sa.svg" alt="" class="header-sticky__logo" />
+
+        <dl class="header-sticky__contact">
+          <dt class="visually-hidden">Phone number</dt>
+          <dd>
+            <img
+              src="./images/icons/phone.svg"
+              height="24"
+              width="24"
+              class="header-sticky__contact-icon"
+            />
+            +31 10 714 44 57
+          </dd>
+
+          <dt class="visually-hidden">E-mail address</dt>
+          <dd>
+            <img
+              src="./images/icons/email.svg"
+              height="24"
+              width="24"
+              class="header-sticky__contact-icon"
+            />
+            info@vicompany.nl
+          </dd>
+        </dl>
+
+        <div class="header-sticky__call-to-action">
+          <a href="mailto:yvonne@vicompany.nl" class="button button--primary">
+            <img src="./images/icons/calendar.svg" height="24" width="24" />
+            Create an appointment
+          </a>
+        </div>
+      </div>
+    </header>
+
     <main>
-      <div class="section section--dark section--hero">
+      <div class="section section--dark section--hero" id="jumbotron">
         <div class="jumbotron">
           <h1 class="visually-hidden">Trade Mission South Africa 2021</h1>
           <h2 class="jumbotron__title">

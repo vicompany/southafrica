@@ -14,6 +14,7 @@
 @import './components/container';
 @import './components/footer';
 @import './components/header';
+@import './components/header-sticky';
 @import './components/heading';
 @import './components/iframe-container';
 @import './components/image-list';

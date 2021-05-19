@@ -1,8 +1,8 @@
-const buttonTop = document.getElementById('button-top');
+import createHeaderComponent from './components/header';
+import createScrollToTopButton from './components/scrollToTopButton';
 
-buttonTop.addEventListener('click', () => {
-  window.scrollTo({
-    behavior: 'smooth',
-    top: 0,
-  });
+createHeaderComponent(document.getElementById('header-sticky'), {
+  jumbotron: document.getElementById('jumbotron'),
 });
+
+createScrollToTopButton(document.getElementById('button-top'));
