@@ -1,5 +1,5 @@
 .image-list {
-  display: flex;
+  display: none;
   width: calc(64rem + 7.5rem);
   margin-left: auto;
   margin-right: auto;
@@ -19,5 +19,11 @@
   &:first-child,
   &:last-child {
     height: 16rem;
+  }
+}
+
+@media (min-width: 80rem) {
+  .image-list {
+    display: flex;
   }
 }
