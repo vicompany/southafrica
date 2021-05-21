@@ -7,6 +7,11 @@ a {
   &:focus {
     text-decoration: underline;
   }
+
+  & > img {
+    height: auto;
+    width: 1.25em;
+  }
 }
 
 a[href^="mailto:"],
