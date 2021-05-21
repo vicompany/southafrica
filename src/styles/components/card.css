@@ -31,7 +31,8 @@
   --card-background: var(--theme-secondary-lighter);
   --card-foreground: var(--theme-secondary-text);
 
-  padding: 6rem 4rem;
+  padding: 4rem 2rem;
+
   position: relative;
 
   & .card__header {
@@ -79,7 +80,7 @@
 
 .card__image {
   display: block;
-  max-width: 100%;
+  width: 100%;
 
   border-radius: var(--border-radius);
 }
@@ -107,5 +108,9 @@
 @media (min-width: 60em) {
   .card {
     padding: 1.5rem;
+  }
+
+  .card--dark {
+    padding: 6rem 4rem;
   }
 }

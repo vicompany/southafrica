@@ -1,6 +1,6 @@
 .header {
   overflow: hidden;
-  padding: 0.75rem 2rem;
+  padding: 2rem;
 
   position: absolute;
   left: 0;
@@ -12,6 +12,8 @@
 }
 
 .header__call-to-action {
+  display: none;
+
   grid-area: cta;
   justify-self: end;
 }
@@ -20,17 +22,17 @@
   display: grid;
   gap: 1rem;
 
-  grid-template-areas: 'logo cta';
-  grid-template-columns: 1fr 1fr;
+  grid-template-areas: 'logo';
+  grid-template-columns: 1fr;
 }
 
 .header__logo {
   height: 2.5rem;
   grid-area: logo;
-  justify-self: start;
+  justify-self: center;
 }
 
-@media (min-width: 80em) {
+/* @media (min-width: 80em) {
   .header__content {
     grid-template-areas: '- logo cta';
     grid-template-columns: 1fr min-content 1fr;
@@ -40,4 +42,4 @@
     height: 3.75rem;
     justify-self: center;
   }
-}
+} */
