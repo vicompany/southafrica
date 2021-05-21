@@ -4,6 +4,7 @@
 
   display: inline-block;
   padding: 0.75rem 1rem;
+  border: none;
 
   background-color: var(--button-background);
   border-radius: var(--border-radius);

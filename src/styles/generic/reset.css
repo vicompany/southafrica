@@ -6,6 +6,12 @@ body {
   margin: 0;
 }
 
+button {
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
