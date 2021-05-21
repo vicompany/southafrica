@@ -9,3 +9,10 @@
   font-weight: bold;
   src: url('../../fonts/wigrum-web-bold.woff') format('woff');
 }
+
+@font-face {
+  font-family: wigrum-web;
+  font-style: italic;
+  font-weight: bold;
+  src: url('../../fonts/wigrum-web-bolditalic.woff') format('woff');
+}
