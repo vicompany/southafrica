@@ -90,4 +90,9 @@
   .section--decorated {
     padding-bottom: 14rem;
   }
+
+  .section--hero {
+    padding-top: 6rem;
+  }
 }
+

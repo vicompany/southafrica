@@ -32,14 +32,9 @@
   justify-self: center;
 }
 
-/* @media (min-width: 80em) {
-  .header__content {
-    grid-template-areas: '- logo cta';
-    grid-template-columns: 1fr min-content 1fr;
-  }
-
+@media (min-width: 80em) {
   .header__logo {
-    height: 3.75rem;
+    height: 4.5rem;
     justify-self: center;
   }
-} */
+}
