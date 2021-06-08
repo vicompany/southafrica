@@ -29,9 +29,15 @@
   }
 }
 
-.product__video {
+.product__preview {
   margin-top: 2rem;
   margin-bottom: 2rem;
+
+  & img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
 }
 
 @media (min-width: 80em) {
