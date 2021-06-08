@@ -14,8 +14,6 @@
 .client-list__item {
   display: flex;
   align-items: center;
-
-  max-width: 8rem;
 }
 
 .client-list__item--text {
