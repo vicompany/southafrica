@@ -6,6 +6,14 @@
 
 @font-face {
   font-family: wigrum-web;
+  font-style: italic;
+  font-weight: normal;
+  src: url('../../fonts/wigrum-web-italic.woff') format('woff');
+}
+
+
+@font-face {
+  font-family: wigrum-web;
   font-weight: bold;
   src: url('../../fonts/wigrum-web-bold.woff') format('woff');
 }
