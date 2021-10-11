@@ -1,5 +1,5 @@
 .jumbotron {
-  padding-top: 5rem;
+  padding-top: 3rem;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -16,7 +16,7 @@
 
 @media (min-width: 60rem) {
   .jumbotron {
-    padding-top: 4rem;
+    padding-top: 2rem;
   }
 
   .jumbotron__intro {

@@ -27,14 +27,13 @@
 }
 
 .header__logo {
-  height: 3.5rem;
+  height: 2rem;
   grid-area: logo;
   justify-self: center;
 }
 
 @media (min-width: 80em) {
   .header__logo {
-    height: 6rem;
-    justify-self: center;
+    height: 3.5rem;
   }
 }
